@@ -62,7 +62,7 @@ ifeq ($(SOONG_CONFIG_android_hardware_audio_run_64bit), true)
 LOCAL_MULTILIB := 64
 endif
 
-LOCAL_MODULE := libfmpal
+LOCAL_MODULE := libfmpal-qti
 LOCAL_VENDOR_MODULE := true
 
 LOCAL_SRC_FILES:= FM.cpp
@@ -99,7 +99,7 @@ include $(BUILD_SHARED_LIBRARY)
 #-------------------------------------------
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := libbatterylistener
+LOCAL_MODULE := libbatterylistener-qti
 LOCAL_VENDOR_MODULE := true
 
 LOCAL_SRC_FILES:= battery_listener.cpp

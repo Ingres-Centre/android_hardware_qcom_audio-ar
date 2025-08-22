@@ -52,7 +52,7 @@ LOCAL_MULTILIB := 64
 endif
 
 LOCAL_MODULE_RELATIVE_PATH := soundfx
-LOCAL_MODULE:= libqcomvisualizer
+LOCAL_MODULE:= libqcomvisualizer-qti
 LOCAL_VENDOR_MODULE := true
 
 LOCAL_C_INCLUDES := \

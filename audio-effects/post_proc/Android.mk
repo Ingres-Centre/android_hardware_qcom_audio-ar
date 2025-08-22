@@ -84,7 +84,7 @@ LOCAL_MULTILIB := 64
 endif
 
 LOCAL_MODULE_RELATIVE_PATH := soundfx
-LOCAL_MODULE:= libqcompostprocbundle
+LOCAL_MODULE := libqcompostprocbundle-qti
 LOCAL_VENDOR_MODULE := true
 LOCAL_MODULE_OWNER := qti
 
