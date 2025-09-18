@@ -196,7 +196,7 @@ LOCAL_MULTILIB := 64
 endif
 
 LOCAL_MODULE_RELATIVE_PATH := soundfx
-LOCAL_MODULE:= libvolumelistener
+LOCAL_MODULE := libvolumelistener-qti
 LOCAL_VENDOR_MODULE := true
 LOCAL_MODULE_OWNER := qti
 
